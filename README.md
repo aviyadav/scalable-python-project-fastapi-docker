@@ -6,6 +6,10 @@ or
 
 > uv run uvicorn app.main:app --reload
 
+Run Test (locally)
+
+> uv run pytest
+
 Example requests:
 
 Here’s a set of simple curl examples you can use to interact with your FastAPI app once it’s running (default at http://localhost:8000):
